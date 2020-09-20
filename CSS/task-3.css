@@ -1,0 +1,26 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding: 0;
+  list-style: none;
+}
+
+.list > li {
+  margin: 15px;
+  width: 370px;
+  overflow: hidden;
+}
+
+.list > li > img {
+  display: block;
+  height: 250px;
+}
